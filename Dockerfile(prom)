@@ -1,0 +1,10 @@
+FROM centos
+
+COPY prometheus-2.20.1.linux-amd64  /
+
+
+EXPOSE 9090
+
+CMD ["./prometheus"]
+
+
